@@ -4,9 +4,10 @@ import { titleIfy, slugify } from '../utils/helpers'
 import { fetchInventory } from '../utils/inventoryProvider'
 import CartLink from '../components/CartLink'
 
-const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
+const Home = ({ inventoryData = [], categories: categoryData = [], trendingData = [] }) => {
   const inventory = inventoryData.slice(0, 4)
   const categories = categoryData.slice(0, 2)
+  const trending = trendingData.slice(0, 4)
 
   return (
     <>
@@ -21,11 +22,11 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
         flex lg:flex-row flex-col">
           <div className="pt-4 pl-2 sm:pt-12 sm:pl-12 flex flex-col">
             <Tag
-              year="2022"
-              category="CAMPUS"
+              year="FEATURED PRODUCT"
+              category={inventory[2].categories[0].toUpperCase()}
             />
             <Center
-              price="350"
+              price={inventory[2].price}
               title={inventory[2].name}
               link={`/product/${slugify(inventory[2].name)}`}
             />
@@ -67,31 +68,31 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
       </div>
       <div className="my-8 flex flex-col lg:flex-row justify-between">
         <DisplaySmall
-          imageSrc={inventory[0].image}
-          title={inventory[0].name}
-          subtitle={inventory[0].categories[0]}
-          link={`/product/${slugify(inventory[0].name)}`}
+          imageSrc={trending[0].image}
+          title={trending[0].name}
+          subtitle={trending[0].categories[0]}
+          link={`/product/${slugify(trending[0].name)}`}
         />
 
         <DisplaySmall
-          imageSrc={inventory[1].image}
-          title={inventory[1].name}
-          subtitle={inventory[1].categories[0]}
-          link={`/product/${slugify(inventory[1].name)}`}
+          imageSrc={trending[1].image}
+          title={trending[1].name}
+          subtitle={trending[1].categories[0]}
+          link={`/product/${slugify(trending[1].name)}`}
         />
 
         <DisplaySmall
-          imageSrc={inventory[2].image}
-          title={inventory[2].name}
-          subtitle={inventory[2].categories[0]}
-          link={`/product/${slugify(inventory[2].name)}`}
+          imageSrc={trending[2].image}
+          title={trending[2].name}
+          subtitle={trending[2].categories[0]}
+          link={`/product/${slugify(trending[2].name)}`}
         />
 
         <DisplaySmall
-          imageSrc={inventory[3].image}
-          title={inventory[3].name}
-          subtitle={inventory[3].categories[0]}
-          link={`/product/${slugify(inventory[3].name)}`}
+          imageSrc={trending[3].image}
+          title={trending[3].name}
+          subtitle={trending[3].categories[0]}
+          link={`/product/${slugify(trending[3].name)}`}
         />
       </div>
     </>
@@ -120,11 +121,16 @@ export async function getStaticProps() {
     })
     return acc
   }, [])
+
+  const inventoryTrending = inventory.filter((obj) => {
+    return obj.isTrending;
+  });
   
   return {
     props: {
       inventoryData: inventory,
-      categories: inventoryCategorized
+      categories: inventoryCategorized,
+      trendingData: inventoryTrending
     }
   }
 }
