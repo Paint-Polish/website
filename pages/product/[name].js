@@ -13,7 +13,7 @@ const ItemView = (props) => {
   const router = useRouter()
   const [numberOfitems, updateNumberOfItems] = useState(1)
   const { product } = props
-  const { price, image, name, description, lazadaUrl, shopeeUrl } = product
+  const { price, image, name, description, notes, lazadaUrl, shopeeUrl } = product
   const { context: { addToCart }} = props
 
   function addItemToCart (product) {
@@ -57,6 +57,7 @@ const ItemView = (props) => {
           ">{name}</h1>
           <h2 className="text-2xl tracking-wide sm:py-8 py-6">₱{price}</h2>
           <p className="text-gray-600 leading-7">{description}</p>
+          <p className="text-gray-600 leading-7 italic pt-3">{notes}</p>
           
           {/* <div className="my-6">
             <QuantityPicker
