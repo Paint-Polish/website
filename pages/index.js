@@ -113,7 +113,7 @@ export async function getStaticProps() {
       } else {
         const item = {
           name: c,
-          image: next.image,
+          image: next.groupImage || next.image,
           itemCount: 1
         }
         acc.push(item)
