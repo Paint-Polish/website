@@ -30,7 +30,7 @@ function Categories ({ categories = [] }) {
                 imageSrc={category.image}
                 subtitle={`${category.itemCount} items`}
                 title={titleIfy(category.name)}
-                link={`/category/${slugify(category.name)}`}
+                link={`/collection/${slugify(category.name)}`}
               />
             ))
           }

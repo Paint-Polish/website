@@ -53,13 +53,13 @@ const Home = ({ inventoryData = [], categories: categoryData = [], trendingData 
           imageSrc={categories[0].image}
           subtitle={`${categories[0].itemCount} items`}
           title={titleIfy(categories[0].name)}
-          link={`/category/${slugify(categories[0].name)}`}
+          link={`/collection/${slugify(categories[0].name)}`}
         />
         <DisplayMedium
           imageSrc={categories[1].image}
           subtitle={`${categories[1].itemCount} items`}
           title={titleIfy(categories[1].name)}
-          link={`/category/${slugify(categories[1].name)}`}
+          link={`/collection/${slugify(categories[1].name)}`}
         />
       </div>
       <div className="pt-10 pb-6 flex flex-col items-center">
