@@ -35,13 +35,13 @@ export default function Layout({ children, categories }) {
                   </p>
                 </a>
               </Link>
-              <Link href="/categories">
-                <a aria-label="All categories">
+              <Link href="/collections">
+                <a aria-label="All collections">
                   <p className="
                     sm:mr-8 sm:mb-0
                     mb-4 text-left text-smaller mr-4 
                   ">
-                  Shop
+                  Collections
                   </p>
                 </a>
               </Link>

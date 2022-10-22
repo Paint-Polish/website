@@ -9,14 +9,14 @@ function Categories ({ categories = [] }) {
     <>
       <div className="w-full">
         <Head>
-          <title>Paint Polish - All Categories</title>
-          <meta name="description" content={`Paint Polish - All categories`} />
-          <meta property="og:title" content="Paint Polish - All Categories" key="title" />
+          <title>Paint Polish - All Collections</title>
+          <meta name="description" content={`Paint Polish - All collections`} />
+          <meta property="og:title" content="Paint Polish - All Collections" key="title" />
         </Head>
         <div className="
           pt-4 sm:pt-10 pb-8
         ">
-          <h1 className="text-5xl font-light">All categories</h1>
+          <h1 className="text-5xl font-light">All collections</h1>
         </div>
         <div className="flex flex-col items-center">
           
