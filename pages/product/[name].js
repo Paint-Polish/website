@@ -59,8 +59,8 @@ const ItemView = (props) => {
           <p className="text-gray-600 leading-7">{description}</p>
           {subvariants && subvariants.length > 0 &&
             <ul className="list-inside list-disc pt-3 pl-2">
-              {subvariants.map(subvariant => (
-                <li className="text-gray-600">{subvariant}</li>
+              {subvariants.map((subvariant, index) => (
+                <li key={index} className="text-gray-600">{subvariant}</li>
               ))}
             </ul>
           }
@@ -74,7 +74,7 @@ const ItemView = (props) => {
             />
           </div> */}
 
-          <div class="py-8 flex justify-evenly">
+          <div className="py-8 flex justify-evenly">
             <Button
               title="Buy at Lazada"
               onClick={() => navigate(lazadaUrl)}
