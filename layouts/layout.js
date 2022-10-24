@@ -4,6 +4,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import { ToastContainer } from 'react-toastify'
 import { navItemLength } from '../ecommerce.config'
 import Footer from '../components/Footer'
+import MessengerChat from '../components/MessengerChat'
 
 export default function Layout({ children, categories }) {
   if (categories.length > navItemLength) {
@@ -72,6 +73,7 @@ export default function Layout({ children, categories }) {
         <main className="w-fw">{children}</main>
       </div>
       <Footer/>
+      <MessengerChat/>
       <ToastContainer autoClose={3000} />
     </div>
   )
