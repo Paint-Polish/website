@@ -16,6 +16,7 @@ const Home = ({ inventoryData = [], categories: categoryData = [], trendingData 
           <title>Paint Polish</title>
           <meta name="description" content="First Philippine Artisan 5-Free and Cruelty-Free Nail Polish Est. 2021" />
           <meta property="og:title" content="Paint Polish" key="title" />
+          <meta name="facebook-domain-verification" content="bw4zd8gmyja353c217braoi5vhdr5t" />
         </Head>
         <div className="bg-gray-300
         p-6 pb-10 smpb-6
