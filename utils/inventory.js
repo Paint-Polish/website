@@ -74,6 +74,152 @@ let inventory = [
     shopeeUrl: 'https://shopee.ph/Paint-Polish-Cuticle-Sugar-Scrub-Exfoliating-Bath-i.804257685.19743605723'
   },
 
+  // Zodiac Collection (13 shades, October 2022)
+  {
+    categories: ['zodiac'],
+    name: 'ARIES',
+    price: '400',
+    groupImage: '/products/zodiac/zodiac.jpg',
+    image: '/products/zodiac/aries.jpg',
+    description: '♈️ ARIES (Ram) March 21 - April 19: Multichrome polish that shifts from orange to red to gold with hints of lime green at extreme angles.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+  {
+    categories: ['zodiac'],
+    name: 'TAURUS',
+    price: '400',
+    image: '/products/zodiac/taurus.jpg',
+    description: '♉️ TAURUS (Bull) April 20 - May 20: Multichrome polish that shifts from purple to blue to green.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+  {
+    categories: ['zodiac'],
+    name: 'GEMINI',
+    price: '400',
+    image: '/products/zodiac/gemini.jpg',
+    description: '♊️ GEMINI (Twins) May 21 - June 20: Multichrome polish that shifts from blue to green to gold.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+  {
+    categories: ['zodiac'],
+    name: 'CANCER',
+    price: '400',
+    image: '/products/zodiac/cancer.jpg',
+    description: '♋️ CANCER (Crab) June 21 - July 22: Strong bright silver magnetic polish on a clear base. This can be used alone or on top of any base polish as an extra bling!',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+  {
+    categories: ['zodiac'],
+    name: 'LEO',
+    price: '350',
+    image: '/products/zodiac/leo.jpg',
+    description: '♌ LEO (Lion) July 23 - August 22: Bright tangerine orange polish with a golden shimmer.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+  {
+    categories: ['zodiac'],
+    name: 'VIRGO',
+    price: '350',
+    image: '/products/zodiac/virgo.jpg',
+    description: '♍️ VIRGO (Virgin) August 23 - September 22: Rich earthy brown base with strong golden shimmer and green sparks.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+  {
+    categories: ['zodiac'],
+    name: 'LIBRA',
+    price: '400',
+    image: '/products/zodiac/libra.jpg',
+    description: '♎️ LIBRA (Balance) September 23 - October 22: Multichrome magnetic polish that shifts from gold to red to fuchsia pink on black base.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+  {
+    categories: ['zodiac'],
+    name: 'SCORPIO',
+    price: '400',
+    image: '/products/zodiac/zodiac.jpg',
+    description: '♏️ SCORPIO (Scorpion) October 23 - November 21: Dark emerald green filled with scattered holographic powder and black microglitters.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+  {
+    categories: ['zodiac'],
+    name: 'SAGITTARIUS',
+    price: '400',
+    image: '/products/zodiac/sagittarius.jpg',
+    description: '♐️ SAGITTARIUS (Archer) November 22 - December 21: Multichrome polish that shifts from gold to red to violet.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+  {
+    categories: ['zodiac'],
+    name: 'CAPRICORN',
+    price: '350',
+    image: '/products/zodiac/capricorn.jpg',
+    description: '♑️ CAPRICORN (Goat) December 22 - January 19: Purple shimmer on a gray base with scattered holographic powder.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+  {
+    categories: ['zodiac'],
+    name: 'AQUARIUS',
+    price: '400',
+    image: '/products/zodiac/aquarius.jpg',
+    description: '♒️ Aquarius (Water-bearer) January 20 - February 18: Multichrome polish that shifts from sky blue to dark blue to fuchsia/violet.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+  {
+    categories: ['zodiac'],
+    name: 'PISCES',
+    price: '400',
+    image: '/products/zodiac/pisces.jpg',
+    description: '♓️ PISCES (Fish) February 19 - March 20: Multichrome polish that shifts from teal to blue to purple to hints of gold at extreme angles.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+  {
+    categories: ['zodiac'],
+    name: 'OPHIUCHUS',
+    price: '400',
+    image: '/products/zodiac/zodiac.jpg',
+    description: 'OPHIUCHUS (Serpent-bearer; the 13th or forgotten constellation of the zodiac) November 29-December 18: Multichrome polish that shifts from green to gold to fuchsia red.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+
   // Campus Collection (8 shades, Aug 2022)
   {
     categories: ['campus'],
