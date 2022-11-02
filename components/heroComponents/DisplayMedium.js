@@ -8,8 +8,8 @@ const DisplayMedium = ({ imageSrc, title, subtitle, link }) => {
     bg-gray-50 p-8 pb-0 hover:bg-gray-100">
       <Link href={`${link}`}>
         <a aria-label={title}>
-          <div className="flex flex-column justify-center items-center h-96">
-            <Image src={imageSrc} alt={title} className="w-3/5" />
+          <div className="flex flex-column justify-center items-center">
+            <Image src={imageSrc} alt={title} height="1024" width="1024"/>
           </div>
           <div className="mb-8">
             <p className="text-3xl font-semibold mb-1">{title}</p>

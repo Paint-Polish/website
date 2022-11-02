@@ -8,8 +8,8 @@ const DisplaySmall = ({ link, title, subtitle, imageSrc }) =>  (
   hover:bg-gray-100 lg:mb-0 mb-4">
     <Link href={link}>
       <a aria-label={title}>
-        <div className="flex flex-column justify-center items-center h-80">
-          <Image alt={title} src={imageSrc} className="w-5/5" />
+        <div className="flex flex-column justify-center items-center">
+          <Image alt={title} src={imageSrc} height="1024" width="1024"/>
         </div>
         <div className="">
           <p className="text-xl font-semibold mb-1">{title}</p>

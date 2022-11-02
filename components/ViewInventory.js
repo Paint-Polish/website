@@ -55,7 +55,7 @@ class ViewInventory extends React.Component {
                   <div className="flex items-center">
                     <Link href={`/product/${slugify(item.name)}`}>
                       <a aria-label={item.name}>
-                        <Image className="w-32 m-0" src={item.image} alt={item.name} />
+                        <Image className="w-32 m-0" src={item.image} alt={item.name} height="1024" width="1024"/>
                       </a>
                     </Link>
                     <input
@@ -94,7 +94,7 @@ class ViewInventory extends React.Component {
                 <div className="flex items-center">
                   <Link href={`/product/${slugify(item.name)}`}>
                     <a>
-                      <Image className="w-32 m-0" src={item.image} alt={item.name} />
+                      <Image className="w-32 m-0" src={item.image} alt={item.name} height="1024" width="1024"/>
                     </a>
                   </Link>
                   <Link href={`/product/${slugify(item.name)}`}>

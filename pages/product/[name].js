@@ -46,9 +46,9 @@ const ItemView = (props) => {
         md:flex-row
         py-4 w-full flex flex-1 flex-col my-0 mx-auto
       ">
-        <div className="w-full md:w-1/2 h-120 flex flex-1 bg-gray-50 hover:bg-gray-100">
-          <div className="py-10 p10 flex flex-1 justify-center items-center">
-            <Image src={image} alt="Inventory item" className="max-h-full" />
+        <div className="w-full md:w-1/2 flex flex-1 bg-gray-50 hover:bg-gray-100">
+          <div className="flex flex-1 justify-center items-center">
+            <Image src={image} alt="Inventory item" width="2048" height="2048"/>
           </div>
         </div>
         <div className="pt-2 px-0 md:px-10 pb-8 w-full md:w-1/2">

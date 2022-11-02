@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { slugify } from '../utils/helpers'
 import 'react-toastify/dist/ReactToastify.css'
@@ -21,7 +22,7 @@ export default function Layout({ children, categories }) {
             <div className="mb-4 sm:mr-16 max-w-48 sm:max-w-none">
               <Link href="/">
                 <a aria-label="Home">
-                  <img src="/logo.png" alt="logo" width="90" height="28" />
+                  <Image src="/logo.png" alt="logo" width="96" height="50" />
                 </a>
               </Link>
             </div>
