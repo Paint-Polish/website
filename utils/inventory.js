@@ -1381,7 +1381,7 @@ let inventory = [
   {
     categories: ['miscellaneous'],
     name: 'Thinner',
-    price: '350',
+    price: '30',
     groupImage: '/products/miscellaneous/Nail polish solvent_thinner (10ml).jpg',
     image: '/products/miscellaneous/Nail polish solvent_thinner (10ml).jpg',
     description: 'Nail polish thinner that refreshes thickened nail polish by replacing solvents (butyl acetate and ethyl acetate) lost through evaporation. This is toluene-free so it can be used on polishes with special effects like flakies, glitters and holo pigments. 18.5ml/bottle',
