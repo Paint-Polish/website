@@ -1417,7 +1417,44 @@ let inventory = [
   },
 
   // Stamping Plates
-  // { 
+  {
+    categories: ['nail art'],
+    name: 'Sailor Moon Nail Art Stamping Plate',
+    price: '250',
+    groupImage: '/products/nail-art/stamping-plates-group.jpg',
+    image: '/products/nail-art/sailor-moon-stamping-plate.jpg',
+    description: 'Size 6 x 12cm with whiteboard at the back.',
+    notes: 'Please note that these will be packaged in 💯 recycled packaging material.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-sailormoon-bts-blackpink-nail-art-stamping-plate-i2160599043-s9650258600.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Sailormoon-BTS-Blackpink-Nail-Art-Stamping-Plate-i.804257685.16477271951'
+  },
+  {
+    categories: ['nail art'],
+    name: 'BTS Nail Art Stamping Plate',
+    price: '250',
+    image: '/products/nail-art/bts-stamping-plate.jpg',
+    description: 'Size 6 x 12cm with whiteboard at the back.',
+    notes: 'Please note that these will be packaged in 💯 recycled packaging material.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-sailormoon-bts-blackpink-nail-art-stamping-plate-i2160599043-s9650258600.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Sailormoon-BTS-Blackpink-Nail-Art-Stamping-Plate-i.804257685.16477271951'
+  },
+  {
+    categories: ['nail art'],
+    name: 'Blackpink Nail Art Stamping Plate',
+    price: '250',
+    image: '/products/nail-art/blackpink-stamping-plate.jpg',
+    description: 'Size 6 x 12cm with whiteboard at the back.',
+    notes: 'Please note that these will be packaged in 💯 recycled packaging material.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-sailormoon-bts-blackpink-nail-art-stamping-plate-i2160599043-s9650258600.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Sailormoon-BTS-Blackpink-Nail-Art-Stamping-Plate-i.804257685.16477271951'
+  },
+  
 ]
 
 inventory.map(i => {
