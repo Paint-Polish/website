@@ -1377,7 +1377,7 @@ let inventory = [
     shopeeUrl: 'https://shopee.ph/Paint-Polish-Cocktail-Collection-I-II-Nail-Polish-i.804257685.18116327252'
   },
 
-  // Thinner
+  // Miscellaneous
   {
     categories: ['miscellaneous'],
     name: 'Thinner',
@@ -1391,8 +1391,31 @@ let inventory = [
     lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-5-free-nail-polish-solvent-thinner-i3108281999-s15363325680.html',
     shopeeUrl: 'https://shopee.ph/Paint-Polish-5-Free-Nail-Polish-Solvent-Thinner-i.804257685.19816352145'
   },
-  // Custom Polish
-  
+  {
+    categories: ['miscellaneous'],
+    name: 'DIY Nail Polish Kit',
+    price: '500',
+    image: '/products/miscellaneous/DIY Nail Polish Kit.jpg',
+    description: 'Make your own nail polish at home. Inclusions:',
+    subvariants: [
+      '5-free nail polish base',
+      '22ml (regular polish, not gel, not water-based)',
+      '5 organic pigments (black, white, red, blue, yellow)',
+      '1 nail polish thinner/solvent',
+      '2 empty bottles with wide paddle brush',
+      '4 stainless steel mixing balls (2 per bottle)',
+      '2 adjustable DIY ring',
+      '2 glass cabachon gems (for the ring)',
+      '2 plastic mixing cups4 fake nails (for swatching)',
+      '1 pair of disposable wooden chopstick or spoon'
+    ],
+    notes: 'Disclaimers: Special Effects pigments will be listed and sold separately. Ziplocks are brand new but are overproduction stocks, so they have printed brand logos.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-diy-nail-polish-kit-i3108329625-s15363268566.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-DIY-Nail-Polish-Kit-i.804257685.19516576380'
+  },
+
   // Stamping Plates
   // { 
 ]
