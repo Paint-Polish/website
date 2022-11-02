@@ -1344,10 +1344,23 @@ let inventory = [
     shopeeUrl: 'https://shopee.ph/Paint-Polish-Cocktail-Collection-I-II-Nail-Polish-i.804257685.18116327252'
   },
 
-  // Thinner?
+  // Thinner
+  {
+    categories: ['miscellaneous'],
+    name: 'Thinner',
+    price: '350',
+    groupImage: '/products/miscellaneous/Nail polish solvent_thinner (10ml).jpg',
+    image: '/products/miscellaneous/Nail polish solvent_thinner (10ml).jpg',
+    description: 'Nail polish thinner that refreshes thickened nail polish by replacing solvents (butyl acetate and ethyl acetate) lost through evaporation. This is toluene-free so it can be used on polishes with special effects like flakies, glitters and holo pigments. 18.5ml/bottle',
+    notes: 'Directions: Gradually add 5-10 drops to thickened nail polish. Shake well (better if shaken with mixing 2 balls).',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-5-free-nail-polish-solvent-thinner-i3108281999-s15363325680.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-5-Free-Nail-Polish-Solvent-Thinner-i.804257685.19816352145'
+  },
+  // Custom Polish
+  
   // Stamping Plates
-  // Custom Polish?
-
   // { 
 ]
 
