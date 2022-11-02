@@ -1285,6 +1285,39 @@ let inventory = [
     currentInventory: 0,
     lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-the-essentials-nail-polish-i3108422232-s15363518042.html',
     shopeeUrl: 'https://shopee.ph/Paint-Polish-The-Essentials-Nail-Polish-i.804257685.14388807901'
+  },  
+  {
+    categories: ['the essentials'],
+    name: 'Rose Quartz Top Coat',
+    price: '200',
+    image: '/products/essentials/Rose quartz top coat.jpg',
+    description: 'ROSE QUARTZ INFUSED TOP COAT: Inspired by cystals and chakras (and rose quartz facial massage roller) This is your typical top coat that is meant to seal your manicure with a glossy finish but with an added benefits of genuine crystal infusion. Rose quartz, the universal stone of love, supposedly attracts and strengthens unconditional love. and opens the heart chakra, which allows the energy of giving and receiving love to others in relationships. This energy can also help heal heartbreaks from wounded relationships. It encourages feelings and expressions of warmth, happiness, compassion, understanding, respect, emotional health, and self-love.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-the-essentials-nail-polish-i3108422232-s15363518042.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-The-Essentials-Nail-Polish-i.804257685.14388807901'
+  },
+  {
+    categories: ['the essentials'],
+    name: 'Jade Top Coat',
+    price: '200',
+    image: '/products/essentials/Jade top coat.jpg',
+    description: 'JADE INFUSED TOP COAT:Inspired by cystals and chakras (and jade bracelets 😁) This is your typical top coat that is meant to seal your manicure with a glossy finish but with an added benefits of genuine crystal infusion.Jade has long been considered a lucky stone. Also known as the happiness stone, it attracts prosperity, abundance and good fortune. It is one of the most treasured stones in China, where Feng Shui was developed. Lighter, more translucent type of Jade is considered as having softer energiesand is referred to as being yin. Darker, more opaque type of Jade are said to have stronger, bigger energy, and is considered to be yang.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-the-essentials-nail-polish-i3108422232-s15363518042.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-The-Essentials-Nail-Polish-i.804257685.14388807901'
+  },
+  {
+    categories: ['the essentials'],
+    name: 'Amethyst Top Coat',
+    price: '200',
+    image: '/products/essentials/Amethyst top coat.jpg',
+    description: '',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-the-essentials-nail-polish-i3108422232-s15363518042.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-The-Essentials-Nail-Polish-i.804257685.14388807901'
   },
 
   // Cocktail Collection (5 shades, January 2021)
