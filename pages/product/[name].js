@@ -13,7 +13,7 @@ const ItemView = (props) => {
   const router = useRouter()
   const [numberOfitems, updateNumberOfItems] = useState(1)
   const { product } = props
-  const { price, image, name, description, notes, subvariants, lazadaUrl, shopeeUrl } = product
+  const { price, image, name, description, notes, subvariants, soldOut, lazadaUrl, shopeeUrl } = product
   const { context: { addToCart }} = props
 
   function addItemToCart (product) {
@@ -55,6 +55,9 @@ const ItemView = (props) => {
           <h1 className="
            sm:mt-0 mt-2 text-5xl font-light leading-large
           ">{name}</h1>
+          {soldOut &&
+            <h2 className="text-2xl tracking-wide sm:py-2 py-1">SOLD OUT</h2>
+          }
           <h2 className="text-2xl tracking-wide sm:py-8 py-6">₱{price}</h2>
           <p className="text-gray-600 leading-7">{description}</p>
           {subvariants && subvariants.length > 0 &&
@@ -74,17 +77,19 @@ const ItemView = (props) => {
             />
           </div> */}
 
-          <div className="py-8 flex justify-evenly">
-            <Button
-              title="Buy at Lazada"
-              onClick={() => navigate(lazadaUrl)}
-            />
+          {!soldOut &&
+            <div className="py-8 flex justify-evenly">
+              <Button
+                title="Buy at Lazada"
+                onClick={() => navigate(lazadaUrl)}
+              />
 
-            <Button
-              title="Buy at Shopee"
-              onClick={() => navigate(shopeeUrl)}
-            />
-          </div>
+              <Button
+                title="Buy at Shopee"
+                onClick={() => navigate(shopeeUrl)}
+              />
+            </div>
+          }
         </div>
       </div>
     </>

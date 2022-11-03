@@ -1145,6 +1145,54 @@ let inventory = [
     lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-seasons-collection-nail-polish-i3108049641-s15360449472.html',
     shopeeUrl: 'https://shopee.ph/Paint-Polish-Seasons-Collection-Nail-Polish-i.804257685.19916348633'
   },
+  {
+    categories: ['seasons'],
+    name: 'WINTER',
+    price: '350',
+    image: '/products/seasons/Winter (macro).jpg',
+    description: '',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    soldOut: true,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-seasons-collection-nail-polish-i3108049641-s15360449472.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Seasons-Collection-Nail-Polish-i.804257685.19916348633'
+  },
+  {
+    categories: ['seasons'],
+    name: 'EQUINOX',
+    price: '350',
+    image: '/products/seasons/Equinox (macro).jpg',
+    description: '',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    soldOut: true,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-seasons-collection-nail-polish-i3108049641-s15360449472.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Seasons-Collection-Nail-Polish-i.804257685.19916348633'
+  },
+  {
+    categories: ['seasons'],
+    name: 'SPRING',
+    price: '350',
+    image: '/products/seasons/Spring (macro).jpg',
+    description: '',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    soldOut: true,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-seasons-collection-nail-polish-i3108049641-s15360449472.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Seasons-Collection-Nail-Polish-i.804257685.19916348633'
+  },
+  {
+    categories: ['seasons'],
+    name: 'SUMMER',
+    price: '350',
+    image: '/products/seasons/Summer (macro).jpg',
+    description: '',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    soldOut: true,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-seasons-collection-nail-polish-i3108049641-s15360449472.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Seasons-Collection-Nail-Polish-i.804257685.19916348633'
+  },
 
   // Milktea Collection (5 shades, April 2021)
   {

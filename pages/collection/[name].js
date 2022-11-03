@@ -24,11 +24,13 @@ const Category = (props) => {
             <div className="flex flex-1 flex-wrap flex-row">
               {
                 inventory.map((item, index) => {
+                  const itemName = item.soldOut ? `${item.name} (SOLD OUT)` : item.name;
+
                   return (
                     <ListItem
                       key={index}
                       link={`/product/${slugify(item.name)}`}
-                      title={item.name}
+                      title={itemName}
                       price={item.price}
                       imageSrc={item.image}
                     />
