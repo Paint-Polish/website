@@ -1285,7 +1285,41 @@ let inventory = [
     currentInventory: 0,
     lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-the-essentials-nail-polish-i3108422232-s15363518042.html',
     shopeeUrl: 'https://shopee.ph/Paint-Polish-The-Essentials-Nail-Polish-i.804257685.14388807901'
-  },  
+  },
+  {
+    categories: ['the essentials'],
+    name: 'Scented Top Coat',
+    price: '200',
+    groupImage: '/products/essentials/The Essentials group photo 2.jpg',
+    image: '/products/essentials/(Glossy) top coat.jpg',
+    description: '',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-the-scented-essentials-collection-nail-polish-i3110332039-s15377765827.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-The-Scented-Essentials-Collection-Nail-Polish-i.804257685.17477271822'
+  },
+  {
+    categories: ['the essentials'],
+    name: 'Scented Matte Top Coat',
+    price: '300',
+    image: '/products/essentials/Matte top coat.jpg',
+    description: '',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-the-scented-essentials-collection-nail-polish-i3110332039-s15377765827.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-The-Scented-Essentials-Collection-Nail-Polish-i.804257685.17477271822'
+  },
+  {
+    categories: ['the essentials'],
+    name: 'Scented Tinted Base Coat',
+    price: '400',
+    image: '/products/essentials/Tinted base coat.jpg',
+    description: 'This functions like a primer: it conceals any stain or uneven discoloration of your nails and softens / blurs the line between the free edge and the nail bed (called visible nail line or VNL) for a smooth transition underneath sheer and jelly polishes. It will also help conserve your favorite polish by allowing use of fewer coats. This is your typical basecoat but with a twist.',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-the-scented-essentials-collection-nail-polish-i3110332039-s15377765827.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-The-Scented-Essentials-Collection-Nail-Polish-i.804257685.17477271822'
+  },
   {
     categories: ['the essentials'],
     name: 'Rose Quartz Top Coat',
