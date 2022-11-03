@@ -43,6 +43,9 @@ export default function Footer() {
                   <li>
                     <a className="block pb-2 text-xs" href="https://www.lazada.com.ph/shop/paint-polish">Lazada</a>
                   </li>
+                  <li>
+                    <a className="block pb-2 text-xs" href="/faq">FAQs</a>
+                  </li>
                   {/* <li>
                     <a className="block pb-2 text-xs" href="/about-us">About Us</a>
                   </li>

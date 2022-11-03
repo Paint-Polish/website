@@ -47,6 +47,16 @@ export default function Layout({ children, categories }) {
                   </p>
                 </a>
               </Link>
+              <Link href="/faq">
+                <a aria-label="Frequently Asked Questions (FAQs)">
+                  <p className="
+                    sm:mr-8 sm:mb-0
+                    mb-4 text-left text-smaller mr-4 
+                  ">
+                  FAQs
+                  </p>
+                </a>
+              </Link>
 
               {/* {
                 categories.map((category, index) => (
