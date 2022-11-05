@@ -61,7 +61,6 @@ let inventory = [
     shopeeUrl: 'https://shopee.ph/Paint-Polish-Cuticle-Cream-Hand-Creme-Body-Lotion-Shaving-Cream-i.804257685.16584648417'
   },
   {
-    isTrending: true,
     categories: ['nail care'],
     name: 'Cuticle Scrub',
     price: '150',
@@ -292,7 +291,6 @@ let inventory = [
     shopeeUrl: 'https://shopee.ph/Paint-Polish-Campus-Collection-Nail-Polish-i.804257685.21616354818'
   },
   {
-    isTrending: true,
     categories: ['campus'],
     name: 'ANIMO LA SALLE!',
     price: '350',
@@ -395,6 +393,7 @@ let inventory = [
     shopeeUrl: 'https://shopee.ph/Paint-Polish-Wizarding-World-and-Spells-Collection-Nail-Polish-Harry-Potter-witch-wizard-i.804257685.20116569956'
   },
   {
+    isTrending: true,
     categories: ['spells'],
     name: 'SECTUMSEMPRA',
     price: '350',
@@ -568,6 +567,7 @@ let inventory = [
     shopeeUrl: 'https://shopee.ph/Paint-Polish-Cocktail-Collection-I-II-Nail-Polish-i.804257685.18116327252'
   },
   {
+    isTrending: true,
     categories: ['cocktail'],
     name: 'SANGRIA',
     price: '350',
