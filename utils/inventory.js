@@ -78,7 +78,7 @@ let inventory = [
     categories: ['zodiac'],
     name: 'ARIES',
     price: '400',
-    groupImage: '/products/zodiac/zodiac.jpg',
+    groupImage: '/products/zodiac/zodiac-cover-photo.jpg',
     image: '/products/zodiac/aries.jpg',
     description: '♈️ ARIES (Ram) March 21 - April 19: Multichrome polish that shifts from orange to red to gold with hints of lime green at extreme angles.',
     brand: 'Paint Polish',
