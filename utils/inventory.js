@@ -28,75 +28,6 @@ let inventory = [
     lazadaUrl: '',
     shopeeUrl: ''
   },
-  // Nail Care
-  {
-    categories: ['nail care'],
-    name: 'Cuticle Oil',
-    price: '110',
-    groupImage: '/products/nail-care/Cuticle oil both 5.jpg',
-    image: '/products/nail-care/Cuticle oil 3.jpg',
-    description: 'These are formulated to be lightweight and quick-absorbing moisturizers. Although formulated with cuticles in mind, these may also be used in any part of the body EXCEPT face and lips.',
-    notes: 'Ingredients: Shea Butter, Jojoba Oil, Sunflower Oil, Fragrance Oil',
-    subvariants: [
-      'BEAUTY - a pretty mix of fruity scents',
-      'ALLURE - a dainty mix of lavender and orange',
-      'CHARM - a sweet mix of tropical scents',
-      'GLAM - a clean scent of fresh bamboo',
-      'CHIC - a sassy mix of lemongrass and citrus',
-      'POSH - a fresh scent of flowers and ocean',
-      'STYLE - a calming mix of florals, bergamot, lemon, ginger, nutmeg, musk'
-    ],
-    brand: 'Paint Polish',
-    currentInventory: 0,
-    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-cuticle-oil-roll-on-shimmer-nail-care-skincare-i3108242330-s15361851095.html',
-    shopeeUrl: 'https://shopee.ph/Paint-Polish-Cuticle-Oil-Roll-on-Shimmer-Nail-Care-Skincare-i.804257685.18016360554'
-  },
-  {
-    isTrending: true,
-    categories: ['nail care'],
-    name: 'Cuticle Oil with Shimmer',
-    price: '110',
-    image: '/products/nail-care/Cuticle oil with shimmer 3.jpg',
-    description: 'These are formulated to be lightweight and quick-absorbing moisturizers. Although formulated with cuticles in mind, these may also be used in any part of the body EXCEPT face and lips. Shimmers will fall to the bottom of the bottle because oils (unlike polish) do not have pigment-suspending abilities, just shake it when that happens.',
-    notes: 'Ingredients: Shea Butter, Jojoba Oil, Sunflower Oil, Fragrance Oil',
-    subvariants: [
-      'BEAUTY - a pretty mix of fruity scents',
-      'ALLURE - a dainty mix of lavender and orange',
-      'CHARM - a sweet mix of tropical scents',
-      'GLAM - a clean scent of fresh bamboo',
-      'CHIC - a sassy mix of lemongrass and citrus',
-      'POSH - a fresh scent of flowers and ocean',
-      'STYLE - a calming mix of florals, bergamot, lemon, ginger, nutmeg, musk'
-    ],
-    brand: 'Paint Polish',
-    currentInventory: 0,
-    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-cuticle-oil-roll-on-shimmer-nail-care-skincare-i3108242330-s15361851095.html',
-    shopeeUrl: 'https://shopee.ph/Paint-Polish-Cuticle-Oil-Roll-on-Shimmer-Nail-Care-Skincare-i.804257685.18016360554'
-  },
-  {
-    categories: ['nail care'],
-    name: 'Cuticle Cream',
-    price: '200',
-    image: '/products/nail-care/cuticle-cream.jpg',
-    description: 'These are formulated to be lightweight and quick-absorbing moisturizers. Although formulated with cuticles in mind, these may also be used in any part of the body EXCEPT face and lips. For external use only.',
-    notes: 'Ingredients: Distilled water, shea butter, golden jojoba oil, vitamin E oil, glycerin, stearic acid, BTMS-50, germall plus, fragrance oil',
-    brand: 'Paint Polish',
-    currentInventory: 0,
-    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-cuticle-cream-i3321840488-s16884807347.html',
-    shopeeUrl: 'https://shopee.ph/Paint-Polish-Cuticle-Cream-Hand-Creme-Body-Lotion-Shaving-Cream-i.804257685.16584648417'
-  },
-  {
-    categories: ['nail care'],
-    name: 'Cuticle Scrub',
-    price: '200',
-    image: '/products/nail-care/cuticle-scrub.jpg',
-    description: 'These are formulated to be lightweight and quick-absorbing moisturizers. Although formulated with cuticles in mind, these may also be used in any part of the body EXCEPT face and lips. For external use only.',
-    notes: 'Ingredients: Sugar, shea butter, golden jojoba oil, vitamin E oil, glycerin, emulsifying wax, polysorbate 80, xanthan gum, stearic acid, nipaguard, fragrance oil',
-    brand: 'Paint Polish',
-    currentInventory: 0,
-    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-cuticle-scrub-i3322015264-s16884728814.html',
-    shopeeUrl: 'https://shopee.ph/Paint-Polish-Cuticle-Sugar-Scrub-Exfoliating-Bath-i.804257685.19743605723'
-  },
 
   // Zodiac Collection (13 shades, October 2022)
   {
@@ -242,6 +173,76 @@ let inventory = [
     currentInventory: 0,
     lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-zodiac-collection-nail-polish-i3111341875-s15384136147.html',
     shopeeUrl: 'https://shopee.ph/Paint-Polish-Zodiac-Collection-Nail-Polish-i.804257685.20916355289'
+  },
+
+  // Nail Care
+  {
+    categories: ['nail care'],
+    name: 'Cuticle Oil',
+    price: '110',
+    groupImage: '/products/nail-care/Cuticle oil both 5.jpg',
+    image: '/products/nail-care/Cuticle oil 3.jpg',
+    description: 'These are formulated to be lightweight and quick-absorbing moisturizers. Although formulated with cuticles in mind, these may also be used in any part of the body EXCEPT face and lips.',
+    notes: 'Ingredients: Shea Butter, Jojoba Oil, Sunflower Oil, Fragrance Oil',
+    subvariants: [
+      'BEAUTY - a pretty mix of fruity scents',
+      'ALLURE - a dainty mix of lavender and orange',
+      'CHARM - a sweet mix of tropical scents',
+      'GLAM - a clean scent of fresh bamboo',
+      'CHIC - a sassy mix of lemongrass and citrus',
+      'POSH - a fresh scent of flowers and ocean',
+      'STYLE - a calming mix of florals, bergamot, lemon, ginger, nutmeg, musk'
+    ],
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-cuticle-oil-roll-on-shimmer-nail-care-skincare-i3108242330-s15361851095.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Cuticle-Oil-Roll-on-Shimmer-Nail-Care-Skincare-i.804257685.18016360554'
+  },
+  {
+    isTrending: true,
+    categories: ['nail care'],
+    name: 'Cuticle Oil with Shimmer',
+    price: '110',
+    image: '/products/nail-care/Cuticle oil with shimmer 3.jpg',
+    description: 'These are formulated to be lightweight and quick-absorbing moisturizers. Although formulated with cuticles in mind, these may also be used in any part of the body EXCEPT face and lips. Shimmers will fall to the bottom of the bottle because oils (unlike polish) do not have pigment-suspending abilities, just shake it when that happens.',
+    notes: 'Ingredients: Shea Butter, Jojoba Oil, Sunflower Oil, Fragrance Oil',
+    subvariants: [
+      'BEAUTY - a pretty mix of fruity scents',
+      'ALLURE - a dainty mix of lavender and orange',
+      'CHARM - a sweet mix of tropical scents',
+      'GLAM - a clean scent of fresh bamboo',
+      'CHIC - a sassy mix of lemongrass and citrus',
+      'POSH - a fresh scent of flowers and ocean',
+      'STYLE - a calming mix of florals, bergamot, lemon, ginger, nutmeg, musk'
+    ],
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-cuticle-oil-roll-on-shimmer-nail-care-skincare-i3108242330-s15361851095.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Cuticle-Oil-Roll-on-Shimmer-Nail-Care-Skincare-i.804257685.18016360554'
+  },
+  {
+    categories: ['nail care'],
+    name: 'Cuticle Cream',
+    price: '200',
+    image: '/products/nail-care/cuticle-cream.jpg',
+    description: 'These are formulated to be lightweight and quick-absorbing moisturizers. Although formulated with cuticles in mind, these may also be used in any part of the body EXCEPT face and lips. For external use only.',
+    notes: 'Ingredients: Distilled water, shea butter, golden jojoba oil, vitamin E oil, glycerin, stearic acid, BTMS-50, germall plus, fragrance oil',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-cuticle-cream-i3321840488-s16884807347.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Cuticle-Cream-Hand-Creme-Body-Lotion-Shaving-Cream-i.804257685.16584648417'
+  },
+  {
+    categories: ['nail care'],
+    name: 'Cuticle Scrub',
+    price: '200',
+    image: '/products/nail-care/cuticle-scrub.jpg',
+    description: 'These are formulated to be lightweight and quick-absorbing moisturizers. Although formulated with cuticles in mind, these may also be used in any part of the body EXCEPT face and lips. For external use only.',
+    notes: 'Ingredients: Sugar, shea butter, golden jojoba oil, vitamin E oil, glycerin, emulsifying wax, polysorbate 80, xanthan gum, stearic acid, nipaguard, fragrance oil',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-cuticle-scrub-i3322015264-s16884728814.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Cuticle-Sugar-Scrub-Exfoliating-Bath-i.804257685.19743605723'
   },
 
   // Campus Collection (8 shades, Aug 2022)
