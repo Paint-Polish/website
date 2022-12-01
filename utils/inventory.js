@@ -3,6 +3,31 @@ import {
 } from 'uuid'
 
 let inventory = [
+  // Soiree
+  {
+    categories: ['soiree'],
+    name: 'SOIREE',
+    price: '350',
+    groupImage: '/products/soiree/soiree-cover-photo.jpg',
+    image: '/products/soiree/soiree.jpg',
+    description: '',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: '',
+    shopeeUrl: ''
+  },
+  {
+    categories: ['soiree'],
+    name: 'THE FIFTH',
+    price: '350',
+    groupImage: '/products/soiree/soiree-cover-photo.jpg',
+    image: '/products/soiree/the-fifth.jpg',
+    description: '',
+    brand: 'Paint Polish',
+    currentInventory: 0,
+    lazadaUrl: '',
+    shopeeUrl: ''
+  },
   // Nail Care
   {
     categories: ['nail care'],
