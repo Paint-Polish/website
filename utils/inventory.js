@@ -51,7 +51,7 @@ let inventory = [
   {
     categories: ['nail care'],
     name: 'Cuticle Cream',
-    price: '150',
+    price: '200',
     image: '/products/nail-care/cuticle-cream.jpg',
     description: 'These are formulated to be lightweight and quick-absorbing moisturizers. Although formulated with cuticles in mind, these may also be used in any part of the body EXCEPT face and lips. For external use only.',
     notes: 'Ingredients: Distilled water, shea butter, golden jojoba oil, vitamin E oil, glycerin, stearic acid, BTMS-50, germall plus, fragrance oil',
@@ -63,7 +63,7 @@ let inventory = [
   {
     categories: ['nail care'],
     name: 'Cuticle Scrub',
-    price: '150',
+    price: '200',
     image: '/products/nail-care/cuticle-scrub.jpg',
     description: 'These are formulated to be lightweight and quick-absorbing moisturizers. Although formulated with cuticles in mind, these may also be used in any part of the body EXCEPT face and lips. For external use only.',
     notes: 'Ingredients: Sugar, shea butter, golden jojoba oil, vitamin E oil, glycerin, emulsifying wax, polysorbate 80, xanthan gum, stearic acid, nipaguard, fragrance oil',
