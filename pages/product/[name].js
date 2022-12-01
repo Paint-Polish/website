@@ -79,15 +79,19 @@ const ItemView = (props) => {
 
           {!soldOut &&
             <div className="py-8 flex justify-evenly">
-              <Button
-                title="Buy at Lazada"
-                onClick={() => navigate(lazadaUrl)}
-              />
+              {lazadaUrl &&
+                <Button
+                  title="Buy at Lazada"
+                  onClick={() => navigate(lazadaUrl)}
+                />
+              }
 
-              <Button
-                title="Buy at Shopee"
-                onClick={() => navigate(shopeeUrl)}
-              />
+              {shopeeUrl &&
+                <Button
+                  title="Buy at Shopee"
+                  onClick={() => navigate(shopeeUrl)}
+                />
+              }
             </div>
           }
         </div>
