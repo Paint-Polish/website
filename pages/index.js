@@ -24,12 +24,12 @@ const Home = ({ inventoryData = [], categories: categoryData = [], trendingData 
           <div className="pt-4 pl-2 sm:pt-12 sm:pl-12 flex flex-col">
             <Tag
               year="FEATURED PRODUCT"
-              category={inventory[2].categories[0].toUpperCase()}
+              category={inventory[0].categories[0].toUpperCase()}
             />
             <Center
-              price={inventory[2].price}
-              title={inventory[2].name}
-              link={`/product/${slugify(inventory[2].name)}`}
+              price={inventory[0].price}
+              title={inventory[0].name}
+              link={`/product/${slugify(inventory[0].name)}`}
             />
             {/* <Footer
               designer="Starter Studios"
@@ -37,7 +37,7 @@ const Home = ({ inventoryData = [], categories: categoryData = [], trendingData 
           </div>
           <div className="flex flex-1 justify-center items-center relative">
               <Showcase
-                imageSrc={inventory[2].image}
+                imageSrc={inventory[0].image}
               />
               <div className="absolute
               w-48 h-48 sm:w-72 sm:h-72 xl:w-88 xl:h-88
