@@ -10,11 +10,11 @@ let inventory = [
     price: '350',
     groupImage: '/products/soiree/soiree-cover-photo.jpg',
     image: '/products/soiree/soiree.jpg',
-    description: '',
+    description: 'Soiree is from the Soiree Collection',
     brand: 'Paint Polish',
     currentInventory: 0,
-    lazadaUrl: '',
-    shopeeUrl: ''
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-nail-polish-soiree-soiree-collection-burnt-red-gold-holo-i3722639245.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Nail-Polish-Soiree-Soiree-Collection-Burnt-Red-Gold-Holo-i.804257685.17994183625'
   },
   {
     categories: ['soiree'],
@@ -22,11 +22,11 @@ let inventory = [
     price: '350',
     groupImage: '/products/soiree/soiree-cover-photo.jpg',
     image: '/products/soiree/the-fifth.jpg',
-    description: '',
+    description: 'THE FIFTH is a creamy white polish with a red shimmer, ala glazed donut. THE FIFTH is a creamy white polish with a red shimmer, ala glazed donut.',
     brand: 'Paint Polish',
     currentInventory: 0,
-    lazadaUrl: '',
-    shopeeUrl: ''
+    lazadaUrl: 'https://www.lazada.com.ph/products/paint-polish-nail-polish-the-fifth-soiree-collection-white-red-glazed-donut-i3722589579.html',
+    shopeeUrl: 'https://shopee.ph/Paint-Polish-Nail-Polish-The-Fifth-Soiree-Collection-White-Red-Glazed-Donut-i.804257685.20478352186'
   },
 
   // Zodiac Collection (13 shades, October 2022)
